@@ -1,0 +1,12 @@
+.element {
+  border: 1px solid;
+  display: flex;
+  flex-wrap: wrap;
+  height: 120px;
+  width: 140px;
+}
+
+.element div {
+  height: 20px;
+  width: 20px;
+}
