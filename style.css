@@ -1,5 +1,5 @@
 .element {
-  border: 1px solid;
+  border: 10px solid;
   display: flex;
   flex-wrap: wrap;
   height: 120px;

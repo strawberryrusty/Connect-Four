@@ -1,1 +1,1 @@
-console.log('hello')
+const grids = document.querySelectorAll('element div')
