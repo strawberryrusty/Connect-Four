@@ -1,5 +1,5 @@
 .element {
-  border: 10px solid;
+  border: 1px solid;
   display: flex;
   flex-wrap: wrap;
   height: 120px;
@@ -13,11 +13,11 @@
 
 
 .player-one {
-    background-color: red;
+    background-color: orange;
     border-radius: 10px;
   }
 
 .player-two {
-    background-color: blue;
+    background-color: green;
     border-radius: 10px;
   }
