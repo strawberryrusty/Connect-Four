@@ -62,7 +62,6 @@ document.addEventListener('DOMContentLoaded', () => {
       const grid3 = grids[winArr[y][2]]
       const grid4 = grids[winArr[y][3]]
 
-
     }
 
 
