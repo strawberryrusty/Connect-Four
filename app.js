@@ -62,6 +62,16 @@ document.addEventListener('DOMContentLoaded', () => {
       const grid3 = grids[winArr[y][2]]
       const grid4 = grids[winArr[y][3]]
 
+
+      //now check those arrays to see if they all have the class of player-one
+      if(grid1.classList.contains('player-one') &&
+         grid2.classList.contains('player-one') &&
+         grid3.classList.contains('player-one') &&
+         grid4.classList.contains('player-one')){
+
+        //make player1 the winner
+        endResult.innerHTML = 'PLAYER 1 IS THE WINNER'
+      }
     }
 
 
