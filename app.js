@@ -71,8 +71,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
         //make player1 the winner
         endResult.innerHTML = 'PLAYER 1 IS THE WINNER'
-        
-      } else if(grid1.classList.contains('player-two') &&
+
+      }
+
+      else if(grid1.classList.contains('player-two') &&
          grid2.classList.contains('player-two') &&
          grid3.classList.contains('player-two') &&
          grid4.classList.contains('player-two')){
@@ -82,5 +84,9 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     }
   }
+
+
+  //add an event listener to each square that will trigger the checkBoard function on click
+  grids.forEach(grid => grid.addEventListener('click', winCheck)
 
 })
