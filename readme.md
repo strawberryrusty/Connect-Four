@@ -11,7 +11,7 @@ This is a game of connect 4 I am developing with Vanilla JS.
 
 # technologies used
 
--html
--css
--JavaScript
+-html 5
+-CSS
+-Vanilla JavaScript
 -Dom Manipulation
